@@ -1,0 +1,28 @@
+# Robots.txt for L'Acino Restaurant
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Allow: /assets/
+
+# Specific crawlers
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://lacinorestaurant.com/sitemap.xml
+
+# Comment: Do not crawl session IDs
+User-agent: *
+Disallow: /*?*sessionid
+
+# Comment: Do not crawl admin or login pages
+User-agent: *
+Disallow: /admin
+Disallow: /login
+Disallow: /private
