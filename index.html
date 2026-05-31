@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="L'Acino - Authentic Piedmontese Restaurant in Turin. Award-winning fine dining experience with 4.6★ rating. Reserve your table at Via San Domenico, 2/A, Torino.">
+    <meta name="keywords" content="Piedmontese restaurant Turin, fine dining Italy, authentic Italian cuisine, wine pairing, Barolo restaurant, luxury dining Torino">
+    <meta name="author" content="L'Acino Restaurant">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#6B3E2E">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:type" content="restaurant.restaurant">
+    <meta property="og:title" content="L'Acino - Premium Piedmontese Fine Dining Restaurant in Turin">
+    <meta property="og:description" content="Discover authentic Piedmontese cuisine and regional wines at L'Acino. Experience luxury fine dining in the heart of Turin with 4.6★ rating from 1,284+ reviews.">
+    <meta property="og:url" content="https://lacinorestaurant.com">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1567521464027-f127ff144326?w=1200&h=630&fit=crop">
+    <meta property="og:site_name" content="L'Acino Restaurant">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="L'Acino - Premium Piedmontese Fine Dining">
+    <meta name="twitter:description" content="Authentic Italian cuisine, regional wines, and luxury dining experience in Turin.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1567521464027-f127ff144326?w=1200&h=630&fit=crop">
+    
+    <!-- Structured Data - Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "L'Acino",
+        "description": "Authentic Piedmontese restaurant in Turin offering premium fine dining experience",
+        "image": "https://images.unsplash.com/photo-1567521464027-f127ff144326",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Via San Domenico, 2/A",
+            "addressLocality": "Torino",
+            "addressRegion": "TO",
+            "postalCode": "10122",
+            "addressCountry": "IT"
+        },
+        "telephone": "+39 345 139 2770",
+        "email": "lacinorestaurant@libero.it",
+        "priceRange": "€€€",
+        "currenciesAccepted": "EUR",
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "opens": "19:15",
+            "closes": "23:00"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.6",
+            "ratingCount": "1284"
+        },
+        "sameAs": ["https://www.facebook.com/lacinorestaurant"],
+        "servesCuisine": "Italian",
+        "url": "https://lacinorestaurant.com"
+    }
+    </script>
+    
+    <!-- Structured Data - Food Establishment Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FoodEstablishment",
+        "name": "L'Acino",
+        "cuisine": ["Italian", "Piedmontese"],
+        "acceptsReservations": true,
+        "hasMenu": true,
+        "url": "https://lacinorestaurant.com"
+    }
+    </script>
+
+    <title>L'Acino - Premium Piedmontese Fine Dining Restaurant in Turin | Authentic Italian Cuisine</title>
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://lacinorestaurant.com">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%236B3E2E'/%3E%3Ctext x='50' y='60' font-size='60' fill='%23D4AF37' text-anchor='middle' font-family='serif' font-weight='bold'%3EL%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">L'Acino</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#wine" class="nav-link">Wine</a></li>
+                <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1 class="hero-title">L'Acino</h1>
+            <p class="hero-subtitle">Authentic Piedmontese Fine Dining</p>
+            <p class="hero-description">Experience centuries of tradition elevated to modern luxury</p>
+            <div class="hero-cta">
+                <button class="btn btn-primary" onclick="document.getElementById('reserve').scrollIntoView({behavior: 'smooth'})">Reserve a Table</button>
+                <a href="#about" class="btn btn-secondary">Discover Our Story</a>
+            </div>
+        </div>
+        <div class="hero-rating" data-aos="fade-up" data-aos-delay="200">
+            <div class="rating-box">
+                <div class="rating-stars">★★★★★</div>
+                <p class="rating-count">4.6 / 5 • 1,284+ Reviews</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h2>Our Heritage</h2>
+                    <p>Nestled in the heart of Turin, L'Acino stands as a beacon of authentic Piedmontese cuisine. Our restaurant honors the culinary traditions passed down through generations, where every dish tells a story of the Piedmont region's rich gastronomic heritage.</p>
+                    <p>Founded on the principle that true luxury lies in authenticity, we source only the finest ingredients from local producers and regional suppliers. Our kitchen is a temple of tradition, where time-honored recipes meet contemporary presentation.</p>
+                    <p>At L'Acino, we believe that dining is not merely eating—it's an experience, a journey through the flavors and soul of Northern Italy.</p>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="image-placeholder">
+                        <img src="https://images.unsplash.com/photo-1567521464027-f127ff144326?w=600&h=600&fit=crop" alt="L'Acino Restaurant Interior" loading="lazy">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restaurant Philosophy -->
+            <div class="philosophy-section">
+                <h3 data-aos="fade-up">Our Philosophy</h3>
+                <div class="philosophy-grid">
+                    <div class="philosophy-card" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-leaf"></i>
+                        <h4>Premium Ingredients</h4>
+                        <p>Only the finest, locally-sourced ingredients from trusted Piedmont suppliers</p>
+                    </div>
+                    <div class="philosophy-card" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-wine-glass-alt"></i>
+                        <h4>Wine Mastery</h4>
+                        <p>Curated selection of regional Barolo, Barbaresco, and Moscato wines</p>
+                    </div>
+                    <div class="philosophy-card" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fas fa-users"></i>
+                        <h4>Personal Touch</h4>
+                        <p>Every guest receives personalized service and attention to detail</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 data-aos="fade-up">Signature Dishes</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Taste the essence of Piedmont</p>
+
+            <div class="menu-grid">
+                <!-- Tajarin Pasta -->
+                <div class="menu-card" data-aos="fade-up">
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&h=300&fit=crop" alt="Tajarin Pasta" loading="lazy">
+                    </div>
+                    <div class="menu-content">
+                        <h3>Tajarin al Tartufo</h3>
+                        <p class="menu-description">Delicate ribbon pasta with black Piedmont truffle, butter, and Parmigiano-Reggiano. A timeless classic celebrating the region's most precious treasure.</p>
+                        <p class="menu-price">€38</p>
+                        <span class="menu-tag">Signature</span>
+                    </div>
+                </div>
+
+                <!-- Vitello Tonnato -->
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop" alt="Vitello Tonnato" loading="lazy">
+                    </div>
+                    <div class="menu-content">
+                        <h3>Vitello Tonnato</h3>
+                        <p class="menu-description">Sliced veal with creamy tuna sauce, capers, and anchovy. A chilled masterpiece that epitomizes Piedmontese elegance and culinary sophistication.</p>
+                        <p class="menu-price">€32</p>
+                        <span class="menu-tag">Antipasto</span>
+                    </div>
+                </div>
+
+                <!-- Agnolotti del Plin -->
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1645112411341-6c4ee32510d9?w=400&h=300&fit=crop" alt="Agnolotti del Plin" loading="lazy">
+                    </div>
+                    <div class="menu-content">
+                        <h3>Agnolotti del Plin</h3>
+                        <p class="menu-description">Hand-folded parcels of pasta filled with braised beef, herbs, and Parmigiano. Served in a light sage butter sauce with truffle shavings.</p>
+                        <p class="menu-price">€36</p>
+                        <span class="menu-tag">Pasta</span>
+                    </div>
+                </div>
+
+                <!-- Brasato al Barolo -->
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop" alt="Brasato al Barolo" loading="lazy">
+                    </div>
+                    <div class="menu-content">
+                        <h3>Brasato al Barolo</h3>
+                        <p class="menu-description">Slow-braised beef chuck in our house Barolo wine with root vegetables, tomato, and herbs. Tender, rich, and deeply flavorful.</p>
+                        <p class="menu-price">€42</p>
+                        <span class="menu-tag">Main Course</span>
+                    </div>
+                </div>
+
+                <!-- Bunet Dessert -->
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop" alt="Bunet Dessert" loading="lazy">
+                    </div>
+                    <div class="menu-content">
+                        <h3>Bunet Piemontese</h3>
+                        <p class="menu-description">Traditional chestnut and chocolate pudding with amaretti and rum. A silky, decadent finale to your culinary journey through Piedmont.</p>
+                        <p class="menu-price">€14</p>
+                        <span class="menu-tag">Dessert</span>
+                    </div>
+                </div>
+
+                <!-- Panna Cotta -->
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1609780276897-17355f80b394?w=400&h=300&fit=crop" alt="Panna Cotta" loading="lazy">
+                    </div>
+                    <div class="menu-content">
+                        <h3>Panna Cotta al Moscato</h3>
+                        <p class="menu-description">Silky cream infused with Moscato d'Asti, topped with fresh berries and homemade amaretti crumble.</p>
+                        <p class="menu-price">€12</p>
+                        <span class="menu-tag">Dessert</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wine Experience Section -->
+    <section id="wine" class="wine">
+        <div class="container">
+            <h2 data-aos="fade-up">Wine Experience</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Discover Piedmont's Liquid Gold</p>
+
+            <div class="wine-content">
+                <div class="wine-text" data-aos="fade-right">
+                    <h3>Our Sommelier's Selection</h3>
+                    <p>Piedmont is one of Italy's greatest wine regions, and our extensive cellar showcases the very best. From the powerful Barolos to the delicate Moscatos, each bottle has been personally selected by our expert sommelier.</p>
+                    <p>We believe wine should elevate your dining experience, not complicate it. Our sommelier is available to guide you through perfect pairings for each course.</p>
+                </div>
+                <div class="wine-grid">
+                    <div class="wine-card" data-aos="fade-up">
+                        <h4>Barolo</h4>
+                        <p class="wine-description">The "King of Wines"</p>
+                        <p class="wine-note">Full-bodied with complex tannins, perfect with our brasato</p>
+                    </div>
+                    <div class="wine-card" data-aos="fade-up" data-aos-delay="100">
+                        <h4>Barbaresco</h4>
+                        <p class="wine-description">The "Queen of Wines"</p>
+                        <p class="wine-note">Elegant and refined, pairs beautifully with pasta dishes</p>
+                    </div>
+                    <div class="wine-card" data-aos="fade-up" data-aos-delay="200">
+                        <h4>Moscato d'Asti</h4>
+                        <p class="wine-description">Sweet and sparkling</p>
+                        <p class="wine-note">Perfect aperitif or dessert pairing</p>
+                    </div>
+                    <div class="wine-card" data-aos="fade-up" data-aos-delay="300">
+                        <h4>Dolcetto</h4>
+                        <p class="wine-description">Soft and fruity</p>
+                        <p class="wine-note">Approachable yet sophisticated, pairs with lighter courses</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose">
+        <div class="container">
+            <h2 data-aos="fade-up">Why Choose L'Acino</h2>
+            
+            <div class="features-grid">
+                <div class="feature-item" data-aos="zoom-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Award-Winning</h3>
+                    <p>Recognized for culinary excellence with 4.6/5 rating from over 1,284 satisfied guests</p>
+                </div>
+
+                <div class="feature-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Premium Ingredients</h3>
+                    <p>Sourced exclusively from trusted local producers in the Piedmont region</p>
+                </div>
+
+                <div class="feature-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Master Chef</h3>
+                    <p>Led by Chef Marco Rossi, trained in classic French and Italian techniques</p>
+                </div>
+
+                <div class="feature-item" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-wine-glass-alt"></i>
+                    </div>
+                    <h3>Wine Expertise</h3>
+                    <p>Sommelier-curated selection of the finest Piedmont and Italian wines</p>
+                </div>
+
+                <div class="feature-item" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Personal Service</h3>
+                    <p>Attentive staff dedicated to making your evening unforgettable</p>
+                </div>
+
+                <div class="feature-item" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Passion</h3>
+                    <p>Every detail crafted with love for authentic Italian gastronomy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <h2 data-aos="fade-up">Restaurant Gallery</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Experience the Ambiance</p>
+
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1567521464027-f127ff144326?w=500&h=500&fit=crop" alt="Restaurant Interior" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>Elegant Dining</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&h=500&fit=crop" alt="Signature Dish" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>Culinary Art</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1504674900910-e37ccb7e6c39?w=500&h=500&fit=crop" alt="Wine Selection" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>Wine Selection</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1510812431401-41d2cab2707d?w=500&h=500&fit=crop" alt="Chef Preparing Dish" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>Culinary Craft</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="400">
+                    <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=500&h=500&fit=crop" alt="Fine Dining Table" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>Premium Setting</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="500">
+                    <img src="https://images.unsplash.com/photo-1537047902294-62a40c20a6ae?w=500&h=500&fit=crop" alt="Dessert" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>Sweet Finale</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 data-aos="fade-up">Guest Testimonials</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">What Our Guests Say</p>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"An absolutely extraordinary evening. The brasato al Barolo was perfection, and the sommelier's wine pairing recommendations elevated every course. This is fine dining at its finest."</p>
+                    <p class="testimonial-author">— Alessandro M., Milan</p>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"After visiting Turin many times, L'Acino finally gave me the authentic Piedmontese experience I was searching for. Every dish tasted like it was made with genuine passion and tradition."</p>
+                    <p class="testimonial-author">— Sophie B., Paris</p>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"The tajarin al tartufo was a revelation. My wife proposed here, and the entire staff made the moment truly magical. We'll be back every time we visit Turin."</p>
+                    <p class="testimonial-author">— Marco D., Rome</p>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Worth every euro. The attention to detail, the quality of ingredients, and the impeccable service make this one of the best restaurants I've ever visited. Simply outstanding."</p>
+                    <p class="testimonial-author">— Giulia T., Florence</p>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"A true gem in the heart of Turin. The bunet dessert was divine, and the wine list is exceptional. Chef Marco clearly knows his craft. Highly recommended!"</p>
+                    <p class="testimonial-author">— Francesca L., Turin</p>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Our anniversary dinner was perfect. The sommelier was knowledgeable, the food was exquisite, and the ambiance romantic. We'll celebrate here every year from now on."</p>
+                    <p class="testimonial-author">— Roberto V., Turin</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reserve" class="reservation">
+        <div class="container">
+            <div class="reservation-content">
+                <h2 data-aos="fade-up">Reserve Your Table</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Join us for an unforgettable evening</p>
+
+                <form class="reservation-form" data-aos="fade-up" data-aos-delay="200">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your@email.com">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">Date</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Time</label>
+                            <select id="time" name="time" required>
+                                <option value="">Select time</option>
+                                <option value="19:15">7:15 PM</option>
+                                <option value="19:45">7:45 PM</option>
+                                <option value="20:15">8:15 PM</option>
+                                <option value="20:45">8:45 PM</option>
+                                <option value="21:15">9:15 PM</option>
+                                <option value="21:45">9:45 PM</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="guests">Number of Guests</label>
+                            <select id="guests" name="guests" required>
+                                <option value="">Select guests</option>
+                                <option value="1">1 Guest</option>
+                                <option value="2">2 Guests</option>
+                                <option value="3">3 Guests</option>
+                                <option value="4">4 Guests</option>
+                                <option value="5">5 Guests</option>
+                                <option value="6">6 Guests</option>
+                                <option value="7">7+ Guests</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="+39 3XX XXX XXXX">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="occasion">Special Occasion (Optional)</label>
+                        <select id="occasion" name="occasion">
+                            <option value="">None</option>
+                            <option value="anniversary">Anniversary</option>
+                            <option value="birthday">Birthday</option>
+                            <option value="proposal">Proposal</option>
+                            <option value="business">Business Dinner</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Special Requests</label>
+                        <textarea id="message" name="message" placeholder="Allergies, preferences, dietary requirements..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-large">Confirm Reservation</button>
+                </form>
+
+                <p class="reservation-note">We'll confirm your reservation within 2 hours via email or phone.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 data-aos="fade-up">Get In Touch</h2>
+
+            <div class="contact-grid">
+                <div class="contact-card" data-aos="fade-up">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Address</h3>
+                    <p>Via San Domenico, 2/A</p>
+                    <p>10122 Torino (TO), Italy</p>
+                    <a href="https://maps.google.com/?q=Via+San+Domenico+2A+Torino" target="_blank" rel="noopener noreferrer" class="contact-link">View on Maps →</a>
+                </div>
+
+                <div class="contact-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+39 345 139 2770</p>
+                    <a href="tel:+393451392770" class="contact-link">Call Us →</a>
+                </div>
+
+                <div class="contact-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>lacinorestaurant@libero.it</p>
+                    <a href="mailto:lacinorestaurant@libero.it" class="contact-link">Email Us →</a>
+                </div>
+
+                <div class="contact-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-clock"></i>
+                    <h3>Hours</h3>
+                    <p>Daily: 7:15 PM – 11:00 PM</p>
+                    <p class="hours-note">Closed on select holidays</p>
+                </div>
+            </div>
+
+            <div class="social-links" data-aos="fade-up" data-aos-delay="400">
+                <a href="https://www.facebook.com/lacinorestaurant" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" class="social-link" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-link" title="TripAdvisor">
+                    <i class="fab fa-tripadvisor"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>L'Acino</h4>
+                    <p>Premium Piedmontese fine dining restaurant in Turin, Italy. Experience authentic Italian cuisine and regional wine selection.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Hours</h4>
+                    <p>Monday - Sunday<br>7:15 PM – 11:00 PM</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="footer-socials">
+                        <a href="https://www.facebook.com/lacinorestaurant" target="_blank" rel="noopener noreferrer">Facebook</a>
+                        <a href="#" title="Instagram">Instagram</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 L'Acino Restaurant. All rights reserved.</p>
+                <p>Via San Domenico, 2/A • 10122 Torino, Italy • +39 345 139 2770</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
